@@ -41,7 +41,7 @@ class PlantaoList extends CController {
             ' EXISTS (' .
             '  SELECT 1 FROM users_groups ug' .
             '  JOIN usrgrp g ON g.usrgrpid = ug.usrgrpid' .
-            '  WHERE ug.userid = u.userid AND g.name LIKE \'%WISEDB%\'' .
+            '  WHERE ug.userid = u.userid AND g.name LIKE \'%Infra Technicians - Envio SMS%\'' .
             ' )';
 
         $sql =
